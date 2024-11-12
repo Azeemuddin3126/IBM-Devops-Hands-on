@@ -1,0 +1,26 @@
+curl localhost: Pings the application.
+docker build: Builds an image from a Dockerfile.
+docker build . -t: Builds and tags the image.
+docker CLI: Starts the Docker command line interface.
+docker container rm: Removes a container.
+docker images: Lists images.
+docker ps: Lists running containers.
+docker ps -a: Lists all containers, including stopped ones.
+docker pull: Pulls the latest image or repository from a registry.
+docker push: Pushes an image or repository to a registry.
+docker run: Runs a command in a new container.
+docker run -p: Runs the container and publishes ports.
+docker stop: Stops one or more running containers.
+docker stop $(docker ps -q): Stops all running containers.
+docker tag: Tags an image with a new reference.
+docker --version: Displays the Docker CLI version.
+exit: Closes the terminal session.
+export MY_NAMESPACE: Sets a namespace as an environment variable.
+git clone: Clones a Git repository.
+ibmcloud cr images: Lists images in IBM Cloud Container Registry.
+ibmcloud cr login: Logs Docker into IBM Cloud Container Registry.
+ibmcloud cr namespaces: Lists accessible namespaces.
+ibmcloud cr region-set: Sets the IBM Cloud region.
+ibmcloud target: Shows the targeted IBM Cloud account.
+ibmcloud version: Shows the IBM Cloud CLI version.
+ls: Lists directory contents.
